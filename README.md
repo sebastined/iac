@@ -14,11 +14,11 @@
 - Backend: AWS S3 for state management.
   - Bucket: Specified in configuration (replace `<bucket-name>` with actual bucket name).
   - Key: `terraform.tfstate`.
-  - Region: `us-east-1`.
+  - Region: `eu-west-1`.
 
 ## Configuration Files
 1. `variables.tf`: Defines variables like AWS region and cluster name.
-   - Default region: `us-east-1`.
+   - Default region: `eu-west-1`.
    - Default cluster name: `quizapp-eks`.
 2. `main.tf`: Configures the Kubernetes and AWS providers.
    - Sets up the connection to the EKS cluster.
