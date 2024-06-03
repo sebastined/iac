@@ -117,10 +117,7 @@ sudo rm -rf /usr/local/aws-cli
 # **Configure AWS Credentials in command line**
 ```
 $ aws configure
-AWS Access Key ID [None]: 
-AWS Secret Access Key [None]:
-Default region name [None]: 
-Default output format [None]:
+
 
 # Verify if we are able list S3 buckets
 aws s3 ls
